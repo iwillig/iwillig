@@ -11,7 +11,9 @@
       #:default-metadata
       '((author . "Ivan Willig")
         (email  . "iwillig@gmail.com"))
-      #:build-directory "docs"
+
+      #:build-directory "public"
+
       #:readers  (list commonmark-reader)
       #:builders (list (blog)
                        (atom-feed)
