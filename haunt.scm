@@ -2,6 +2,7 @@
              (haunt site)
              (haunt builder blog)
              (haunt builder atom)
+             (haunt builder assets)
              (haunt reader commonmark)
              (haunt site))
 
@@ -10,6 +11,7 @@
       #:default-metadata
       '((author . "Ivan Willig")
         (email  . "iwillig@gmail.com"))
+      #:build-directory "docs"
       #:readers (list commonmark-reader)
       #:builders (list (blog)
                        (atom-feed)
