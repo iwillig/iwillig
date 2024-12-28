@@ -7,7 +7,7 @@
              (haunt site))
 
 (site #:title "Software Ramblings"
-      #:domain "iwillig.me"
+      #:domain "iwillig.github.io"
       #:default-metadata
       '((author . "Ivan Willig")
         (email  . "iwillig@gmail.com"))
