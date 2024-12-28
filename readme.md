@@ -5,5 +5,5 @@ A haunt based blogging system.
 ## Publish
 
 ```shell
-make publish
+make build
 ```
