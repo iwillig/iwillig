@@ -1,3 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Ivan Willig's Blog</title><id>https://iwillig.me/feed.xml</id><subtitle>Recent Posts</subtitle><updated>2024-12-28T10:02:03Z</updated><link href="iwillig.me/feed.xml" rel="self" /><link href="iwillig.me" /><entry><title>Hello, CommonMark!</title><id>https://iwillig.me/hello-commonmark.html</id><author><name>Ivan Willig</name><email>iwillig@gmail.com</email></author><updated>2016-08-20T12:00:00Z</updated><link href="https://iwillig.me/hello-commonmark.html" rel="alternate" /><summary type="html">&lt;h2&gt;This is a CommonMark post&lt;/h2&gt;&lt;p&gt;CommonMark is a &lt;strong&gt;strongly&lt;/strong&gt; defined, &lt;em&gt;highly&lt;/em&gt; compatible
-specification of Markdown, learn more about CommomMark
-&lt;a href=&quot;http://commonmark.org/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;</summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Software Ramblings</title><id>https://iwillig.me/feed.xml</id><subtitle>Recent Posts</subtitle><updated>2024-12-28T10:29:30Z</updated><link href="iwillig.me/feed.xml" rel="self" /><link href="iwillig.me" /><entry><title>Hello, World</title><id>https://iwillig.me/hello-world.html</id><author><name>Ivan Willig</name><email>iwillig@gmail.com</email></author><updated>2024-12-28T12:00:00Z</updated><link href="https://iwillig.me/hello-world.html" rel="alternate" /><summary type="html">&lt;p&gt;Welcome to Software Ramblings, my new technical blog. I am a
+professional software engineer with over 16 years of experience. I
+hope this blog will encourage me to write about my experiences,
+learnings and observations about software engineering. I am making
+this blog public and hopefully other people will find some of this
+useful.&lt;/p&gt;&lt;p&gt;This blog is going to cover software design, functional programming,
+api design and more.&lt;/p&gt;</summary></entry></feed>

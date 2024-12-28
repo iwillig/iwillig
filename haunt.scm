@@ -6,13 +6,13 @@
              (haunt reader commonmark)
              (haunt site))
 
-(site #:title "Ivan Willig's Blog"
+(site #:title "Software Ramblings"
       #:domain "iwillig.me"
       #:default-metadata
       '((author . "Ivan Willig")
         (email  . "iwillig@gmail.com"))
       #:build-directory "docs"
-      #:readers (list commonmark-reader)
+      #:readers  (list commonmark-reader)
       #:builders (list (blog)
                        (atom-feed)
                        (atom-feeds-by-tag)
