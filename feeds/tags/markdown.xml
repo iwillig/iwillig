@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Software Ramblings</title><id>https://iwillig.github.io/feeds/tags/markdown.xml</id><subtitle>Tag: markdown</subtitle><updated>2024-12-28T12:45:22Z</updated><link href="iwillig.github.io/feeds/tags/markdown.xml" rel="self" /><link href="iwillig.github.io" /><entry><title>Hello, World</title><id>https://iwillig.github.io/hello-world.html</id><author><name>Ivan Willig</name><email>iwillig@gmail.com</email></author><updated>2024-12-28T12:00:00Z</updated><link href="https://iwillig.github.io/hello-world.html" rel="alternate" /><summary type="html">&lt;p&gt;Welcome to Software Ramblings, my new technical blog. I am a
-professional software engineer with over 16 years of experience. I
-hope this blog will encourage me to write about my experiences,
-learnings and observations about software engineering. I am making
-this blog public and hopefully other people will find some of this
-useful.&lt;/p&gt;&lt;p&gt;This blog is going to cover software design, functional programming,
-api design and more.&lt;/p&gt;</summary></entry></feed>
