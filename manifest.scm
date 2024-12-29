@@ -1,5 +1,6 @@
 (use-modules (gnu packages autotools)
              (gnu packages base)
+             (gnu packages liunx)
              (gnu packages guile)
              (gnu packages haskell-xyz)
              (gnu packages guile-xyz)
@@ -60,6 +61,7 @@
 (packages->manifest
  (list guile-3.0-latest
        pandoc
+       inotify-tools
        gnu-make
        guile-syntax-highlight*
        haunt*))

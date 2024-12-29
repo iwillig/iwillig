@@ -121,7 +121,7 @@
       ,(map (lambda (post)
               (let ((uri (post-uri site prefix post)))
                 `(article
-                  (h3 (a (@ (href, uri))
+                  (h3 (a (@ (href ,uri))
                          ,(post-ref post 'title)))
                   (div (@ (class "date"))
                        ,(date->string (post-date post)
