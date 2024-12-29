@@ -32,7 +32,6 @@ my efforts in reaching these goals.
 ** API
 *** GraphQL
 *** REST API
-*** SOAP API
 @endmindmap
 ~~~
 
