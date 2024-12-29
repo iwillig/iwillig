@@ -1,6 +1,6 @@
 (use-modules (gnu packages autotools)
              (gnu packages base)
-             (gnu packages liunx)
+             (gnu packages uml)
              (gnu packages guile)
              (gnu packages haskell-xyz)
              (gnu packages guile-xyz)
@@ -32,7 +32,6 @@
       (inputs (list guile-3.0-latest))
       (native-inputs (list autoconf automake pkg-config)))))
 
-
 (define haunt*
   (let ((commit "2b8268683ad2406b38500cde18210100df67b745"))
     (package
@@ -57,11 +56,10 @@
               (lambda _
                 (invoke "sh" "bootstrap"))))))))))
 
-
 (packages->manifest
  (list guile-3.0-latest
+       plantuml
        pandoc
-       inotify-tools
        gnu-make
        guile-syntax-highlight*
        haunt*))

@@ -17,7 +17,24 @@ TypeScript, Rust, Scheme and SQL.
 I have several goals for 2025, and I will be using this blog to record
 my efforts in reaching these goals.
 
+
 ### 2025 Goals
+
+~~~{ .plantuml plantuml-filename=images/goals.svg }
+@startmindmap
+* 2025 Goals
+** Game Development
+*** Godot
+*** LWJGL
+** Immutable Linux Distros
+*** GNU Guix
+*** Fedora Sliverblue
+** Pandoc
+** API
+*** GraphQL
+*** REST API
+@endmindmap
+~~~
 
 I hope to learn or better understand the following software systems.
 
