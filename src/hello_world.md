@@ -1,3 +1,4 @@
+---
 title: Hello, World
 date: 2024-12-28 12:00
 tags: design, software, clojure, ffp
@@ -19,6 +20,15 @@ TypeScript, Rust, Scheme and SQL.
 
 I have several goals for 2025, and I will be using this blog to record
 my efforts in reaching these goals.
+
+~~~clojure
+(defn add10 [x] (+ x 10))
+
+:adasd
+"adadads"
+{:key "value}
+
+~~~~
 
 ### 2025 Goals
 

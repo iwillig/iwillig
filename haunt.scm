@@ -4,6 +4,7 @@
              (haunt builder blog)
              (haunt builder atom)
              (haunt builder assets)
+             (haunt reader)
              (haunt reader commonmark)
              (haunt artifact)
              (haunt builder blog)
@@ -68,7 +69,10 @@
                 (href "https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css")))
 
        (link (@ (rel "stylesheet")
-                (href "css/site.css"))))
+                (href "css/site.css")))
+
+       (link (@ (rel "stylesheet")
+                (href "css/pygments.css"))))
 
       (body
 
@@ -110,7 +114,7 @@
 
       #:build-directory "public"
 
-      #:readers  (list commonmark-reader)
+      #:readers  (list commonmark-reader html-reader)
       #:builders (list (blog #:theme iwillig-theme)
 
                        (flat-pages "pages"
