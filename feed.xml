@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Software Ramblings</title><id>https://iwillig.github.io/feed.xml</id><subtitle>Recent Posts</subtitle><updated>2024-12-28T15:53:18Z</updated><link href="iwillig.github.io/feed.xml" rel="self" /><link href="iwillig.github.io" /><entry><title>Hello, World</title><id>https://iwillig.github.io/hello-world.html</id><author><name>Ivan Willig</name><email>iwillig@gmail.com</email></author><updated>2024-12-28T12:00:00Z</updated><link href="https://iwillig.github.io/hello-world.html" rel="alternate" /><summary type="html">&lt;h2&gt;Welcome&lt;/h2&gt;&lt;p&gt;Welcome to Software Ramblings, my new technical blog. I am a
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title>Software Ramblings</title><id>https://iwillig.github.io/feed.xml</id><subtitle>Recent Posts</subtitle><updated>2024-12-28T22:10:52Z</updated><link href="https://iwillig.github.io/feed.xml" rel="self" /><link href="https://iwillig.github.io" /><entry><title>Hello, World</title><id>https://iwillig.github.io/hello-world.html</id><author><name>Ivan Willig</name><email>iwillig@gmail.com</email></author><updated>2024-12-28T12:00:00Z</updated><link href="https://iwillig.github.io/hello-world.html" rel="alternate" /><content type="html">&lt;h3&gt;Welcome&lt;/h3&gt;&lt;p&gt;Welcome to Software Ramblings, my new technical blog. I am a
 professional software engineer with over 16 years of experience. I
 hope this blog will encourage me to write about my experiences,
 learnings and observations about software engineering. I am also
@@ -7,7 +7,7 @@ this useful.&lt;/p&gt;&lt;p&gt;This blog is going to cover software design, func
 API design and more. It will focus on the Clojure programming
 language, but should include other languages like JavaScript,
 TypeScript, Rust, Scheme and SQL.&lt;/p&gt;&lt;p&gt;I have several goals for 2025, and I will be using this blog to record
-my efforts in reaching these goals.&lt;/p&gt;&lt;h2&gt;2025 Goals&lt;/h2&gt;&lt;p&gt;I hope to learn or better understand the following software systems.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Learn about Game Development&lt;/strong&gt;: Since I was a kid and playing Red Alert at my
+my efforts in reaching these goals.&lt;/p&gt;&lt;h3&gt;2025 Goals&lt;/h3&gt;&lt;p&gt;I hope to learn or better understand the following software systems.&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong&gt;Learn about Game Development&lt;/strong&gt;: Since I was a kid and playing Red Alert at my
 friend John's house I have wanted to build a Command and Conquer or
 StarCraft like game. I want to make 2025 the year when I finally
 understand game development and build something.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Learn more about Immutable Linux&lt;/strong&gt;: Understand and better use immutable Linux
@@ -17,4 +17,4 @@ document transformation system. It allows you to convert any
 document into any other document. It also includes a
 &amp;quot;transformation&amp;quot; system that allow you to modify documents.&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Deepen my understanding Rest API and GraphQL API&lt;/strong&gt;: Continue to
 learn and write about the best ways to design and build these type
-of API Systems.&lt;/li&gt;&lt;/ol&gt;</summary></entry></feed>
+of API Systems.&lt;/li&gt;&lt;/ol&gt;</content></entry></feed>
