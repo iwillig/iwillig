@@ -71,7 +71,7 @@
                 (href "css/site.css")))
 
        (link (@ (rel "stylesheet")
-                (href "css/pygments.css"))))
+                (href "css/highlighting.css"))))
 
       (body
 

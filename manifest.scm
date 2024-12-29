@@ -12,26 +12,6 @@
              (guix profiles)
              (guix utils))
 
-(define guile-syntax-highlight*
-  (let ((commit "d68ccf7c2ae9516ca2ddacc5f65e2277038b23f6"))
-    (package
-      (inherit guile-syntax-highlight)
-      (source (origin
-              (method git-fetch)
-              (uri (git-reference
-                    (url "https://git.dthompson.us/guile-syntax-highlight.git")
-                    (commit commit)))
-              (sha256
-               (base32
-                "0sbxy7mn6kzx83ml4x530r4g7b22jk1kpp766mcgm35zw7mn1qi9"))))
-      (arguments
-       '(#:phases
-         (modify-phases %standard-phases
-           (add-after 'unpack 'bootstrap
-             (lambda _ (invoke "sh" "bootstrap"))))))
-      (inputs (list guile-3.0-latest))
-      (native-inputs (list autoconf automake pkg-config)))))
-
 (define haunt*
   (let ((commit "2b8268683ad2406b38500cde18210100df67b745"))
     (package
@@ -58,8 +38,8 @@
 
 (packages->manifest
  (list guile-3.0-latest
-       plantuml
+       ;; plantuml This does not work with c4 diagrams because
+       ;; plantuml can't seem to access the internet.
        pandoc
        gnu-make
-       guile-syntax-highlight*
        haunt*))

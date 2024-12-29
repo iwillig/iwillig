@@ -17,7 +17,7 @@ a:focus {
     text-decoration: underline;
 }
 
-.pure-img-responsive {
+img {
     max-width: 100%;
     height: auto;
 }
