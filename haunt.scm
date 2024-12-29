@@ -21,17 +21,16 @@
 
 (define nav-items
   (lambda ()
-
     `(nav (@ (class "nav"))
           (ul (@ (class "nav-list"))
               (li (@ (class "nav-item"))
-               (a (@ (href "/about.html")
-                        (class "pure-button"))
+                  (a (@ (href "/about.html")
+                        (class "pure-menu-link"))
                      "About"))
 
               (li (@ (class "nav-item"))
                   (a (@ (href "/")
-                        (class "pure-button"))
+                        (class "pure-menu-link"))
                      "Blog"))))))
 
 (define side-bar
@@ -87,7 +86,10 @@
     `((article
        (div (@ (class "post"))
             (h2 ,(post-ref post 'title))
+            (div ,(date->string (post-date post)
+                                "~B ~d, ~Y"))
             (div (@ (class "pure-menu pure-menu-horizontal"))
+                 "Tags:"
                  (ul (@ (class "pure-menu-list"))
                   ,@(map (lambda (tag)
                            `(li
@@ -99,13 +101,44 @@
                          (assq-ref (post-metadata post) 'tags))))
             ,(post-sxml post))))))
 
-(define iwillig-theme
-  (theme #:name "iwllig"
-         #:layout render-layout
-         #:post-template render-post))
+(define (post-uri site prefix post)
+  (string-append prefix "/" (site-post-slug site post) ".html"))
 
 
-(site #:title "Software Ramblings"
+(define (first-paragraph post)
+  (let loop ((sxml (post-sxml post)))
+    (match sxml
+      (() '())
+      (((and paragraph ('p . _)) . _)
+       (list paragraph))
+      ((head . tail)
+       (cons head (loop tail))))))
+
+
+(define render-collection
+  (lambda (site title posts prefix)
+    `((h2 ,title)
+      ,(map (lambda (post)
+              (let ((uri (post-uri site prefix post)))
+                `(article
+                  (h3 (a (@ (href, uri))
+                         ,(post-ref post 'title)))
+                  (div (@ (class "date"))
+                       ,(date->string (post-date post)
+                                      "~B ~d, ~Y"))
+                  (div (@ (class "post"))
+                       ,(first-paragraph post))
+                  (a (@ (href ,uri)) "read more →"))))
+            posts))))
+
+(define software-wanderings-theme
+  (theme #:name "software-wanderings"
+         #:layout              render-layout
+         #:post-template       render-post
+         #:collection-template render-collection))
+
+
+(site #:title "Software Wanderings"
       #:domain "iwillig.github.io"
 
       #:default-metadata
@@ -115,10 +148,10 @@
       #:build-directory "public"
 
       #:readers  (list commonmark-reader html-reader)
-      #:builders (list (blog #:theme iwillig-theme)
+      #:builders (list (blog #:theme software-wanderings-theme)
 
                        (flat-pages "pages"
-                                   #:template (theme-layout iwillig-theme))
+                                   #:template (theme-layout software-wanderings-theme))
 
                        (atom-feed)
                        (atom-feeds-by-tag)

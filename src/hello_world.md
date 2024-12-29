@@ -4,14 +4,10 @@ date: 2024-12-28 12:00
 tags: design, software, clojure, ffp
 ---
 
-### Welcome
-
-Welcome to Software Ramblings, my new technical blog. I am a
-professional software engineer with over 16 years of experience. I
-hope this blog will encourage me to write about my experiences,
-learnings and observations about software engineering. I am also
-making this blog public and hopefully other people will find some of
-this useful.
+Welcome to Software Wanderings, my new technical blog. I hope this
+blog will encourage me to write about my experiences, learnings and
+observations about software engineering. I am also making this blog
+public and hopefully other people will find some of this useful.
 
 This blog is going to cover software design, functional programming,
 API design and more. It will focus on the Clojure programming
@@ -20,15 +16,6 @@ TypeScript, Rust, Scheme and SQL.
 
 I have several goals for 2025, and I will be using this blog to record
 my efforts in reaching these goals.
-
-~~~clojure
-(defn add10 [x] (+ x 10))
-
-:adasd
-"adadads"
-{:key "value}
-
-~~~~
 
 ### 2025 Goals
 

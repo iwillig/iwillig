@@ -60,5 +60,6 @@
 (packages->manifest
  (list guile-3.0-latest
        pandoc
+       gnu-make
        guile-syntax-highlight*
        haunt*))

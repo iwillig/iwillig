@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: normal;
+  src: url('/css/CascadiaCode.ttf') format('truetype');
+  font-display: fallback;
+}
+
+html {
+    font-family: 'Cascadia Code';
+}
+
 a {
     text-decoration: none;
 }
@@ -22,18 +33,7 @@ a:focus {
 }
 
 .sidebar {
-
-}
-
-.brand-title,
-.brand-tagline {
-    margin: 0;
-}
-.brand-title {
-    text-transform: uppercase;
-}
-.brand-tagline {
-    font-weight: 300;
+    padding: 1em;
 }
 
 .nav-list {
@@ -50,20 +50,11 @@ a:focus {
     background: transparent;
     margin-top: 1em;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
     font-size: 85%;
 }
 .nav-item a:hover,
 .nav-item a:focus {
     text-decoration: none;
-}
-
-.content-subhead {
-    text-transform: uppercase;
-    padding: 0.4em 0;
-    font-size: 80%;
-    font-weight: 500;
-    letter-spacing: 0.1em;
 }
 
 .content {
@@ -91,7 +82,4 @@ a:focus {
         bottom: 0;
     }
 
-    .footer {
-        text-align: center;
-    }
 }
