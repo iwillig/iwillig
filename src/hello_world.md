@@ -108,7 +108,7 @@ Rel(personAlias, app, "Views blog posts")
 This is a [C2 Diagram](https://c4model.com/diagrams/container) for the
 blogging system. We are using a GitHub git repo for storage, and
 GitHub's build system to deploy changes. Pushes to the `main` branch
-currently trigger a new build.
+currently trigger a new build and deploy to "production".
 
 ~~~{ .plantuml plantuml-filename=images/blog_c_2.svg }
 @startuml

@@ -25,7 +25,7 @@ tags: design, software, ffp, writing, system-design
 <p>This is a <a href="https://c4model.com/diagrams/system-context">C1</a> diagram of my blog system. Not super helpful but you can see we are using GitHub to host the blog. Hey, you the reader are there. We are building software with people first.</p>
 <p><img src="images/blog_c_1.svg" /></p>
 <h4 id="c2-diagram">C2 Diagram</h4>
-<p>This is a <a href="https://c4model.com/diagrams/container">C2 Diagram</a> for the blogging system. We are using a GitHub git repo for storage, and GitHub’s build system to deploy changes. Pushes to the <code>main</code> branch currently trigger a new build.</p>
+<p>This is a <a href="https://c4model.com/diagrams/container">C2 Diagram</a> for the blogging system. We are using a GitHub git repo for storage, and GitHub’s build system to deploy changes. Pushes to the <code>main</code> branch currently trigger a new build and deploy to “production”.</p>
 <p><img src="images/blog_c_2.svg" /></p>
 <h4 id="dependencies-and-gnu-guix">Dependencies and GNU Guix</h4>
 <p>I am trying to use Gnu Guix to manage my dependencies. Currently, plantuml and its friends are not working with Guix. For now, I am just using fedora and <a href="https://github.com/pypa/pipx">pipx</a> to manage those dependencies.</p>
