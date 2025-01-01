@@ -31,7 +31,13 @@
               (li (@ (class "nav-item"))
                   (a (@ (href "/")
                         (class "pure-menu-link"))
-                     "Blog"))))))
+                     "Blog"))
+
+              (li (@ (class "nav-item"))
+                  (a (@ (href "/static/resume.html")
+                        (class "pure-menu-link"))
+                     "Resume"))))))
+
 
 (define side-bar
   (lambda (site)
@@ -156,4 +162,5 @@
                        (atom-feed)
                        (atom-feeds-by-tag)
                        (static-directory "css")
+                       (static-directory "static")
                        (static-directory "images")))

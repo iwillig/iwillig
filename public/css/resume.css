@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Cascadia Code';
+  font-style: normal;
+  src: url('/css/CascadiaCode.ttf') format('truetype');
+  font-display: fallback;
+}
+
+
+html {
+    font-family: 'Cascadia Code';
+}
+
+#content {
+}
+
+.lbox {
+    padding: 1em;
+}

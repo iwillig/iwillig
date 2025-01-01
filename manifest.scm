@@ -1,6 +1,7 @@
 (use-modules (gnu packages autotools)
              (gnu packages base)
              (gnu packages uml)
+             (gnu packages web)
              (gnu packages guile)
              (gnu packages haskell-xyz)
              (gnu packages guile-xyz)
@@ -41,5 +42,6 @@
        ;; plantuml This does not work with c4 diagrams because
        ;; plantuml can't seem to access the internet.
        pandoc
+       tidy-html
        gnu-make
        haunt*))

@@ -1,6 +1,6 @@
 ---
 title: Resume
-date: 2024-12-30
+date: 2024-12-28 12:00
 tags: resume
 firstname: Ivan
 lastname: Willig
@@ -12,26 +12,31 @@ address:
   country: USA
 email: iwillig@gmail.com
 linkedin: ivan-willig-28435b10
-homepage: www.iwillig.me
+homepage: iwillig.me
+
+css:
+  - /css/resume.css
 
 education:
   - school: College of the Atlantic
     degree: Bachelor of Arts, June 2008
 
-skills:
+language-skills:
+  - Clojure
   - Python
   - JavaScript
   - Scheme
   - TypeScript
-  - Clojure
   - Java
   - PHP
 
 summary: >-
-  I am a software engineer with over 16 years of experience.
+  Proven senior software engineer and founding engineer at Shortcut
+  (formerly Clubhouse). Senior full-stack engineer with an in-depth
+  understanding of how to balance engineering and business needs.
 
 experience:
-  - dates: 3/2015 - Present
+  - dates: March 2015 - Present
     employer: Shortcut (formally Clubhouse)
     title: Senior Software Engineer
     city: New York
@@ -95,6 +100,5 @@ experience:
       including a World Bank-funded collaborative mapping
       utility. Conceived, managed, and designed a web application that
       allows citizens to connect to government resources.
-
 
 ...
