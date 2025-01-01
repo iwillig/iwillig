@@ -19,75 +19,67 @@
     $for(include-before)$
     $include-before$
     $endfor$
-    <div id="cv" class="instaFade">
-      <div class="mainDetails">
-	<div id="name">
-	  <h1 class="quickFade delayTwo">$firstname$ $lastname$</h1>
+    <div>
+      <div>
+	<div>
+	  <h1>$firstname$ $lastname$</h1>
           $if(jobtitle)$
-          <h2 class="quickFade delayThree">$jobtitle$</h2>
+          <h2>$jobtitle$</h2>
           $endif$
 	</div>
-        <div id="contactDetails" class="quickFade delayFour">
+
+        <div>
 	  <ul>
             <li>✉ <a href="mailto:$email$">$email$</a></li>
-            <li>☎ $phone$</li>
             <li>🌎 <a href="http://$homepage$">$homepage$</a></li>
             <li>Linkedin: <a href="https://www.linkedin.com/in/$linkedin$">$linkedin$</a></li>
             <li>GitHub: <a href="https://github.com/$github$">$github$</a></li>
 	  </ul>
 	</div>
-	<div class="clear"></div>
       </div>
 
-      <div id="mainArea" class="quickFade delayFive">
+      <div>
 	<section>
 	  <article>
-	    <div class="sectionTitle">
-	      <h1>Summary</h1>
+	    <div>
+	      <h3>Summary</h3>
 	    </div>
-
-	    <div class="sectionContent">
+	    <div>
 	      <p>$summary$</p>
 	    </div>
 	  </article>
-	  <div class="clear"></div>
 	</section>
 
-
 	<section>
-	  <div class="sectionTitle">
-	    <h1>Experience</h1>
+	  <div>
+	    <h3>Experience</h3>
 	  </div>
-	  <div class="sectionContent">
+	  <div>
             $for(experience)$
 	    <article>
-	      <h2>$experience.title$ at $experience.employer$</h2>
-	      <p class="subDetails">$experience.dates$</p>
+	      <h4>$experience.title$ at $experience.employer$</h2>
+	      <p>$experience.dates$</p>
               $for(experience.description)$
               <p>$experience.description$</p>
               $endfor$
 	    </article>
             $endfor$
 	  </div>
-	  <div class="clear"></div>
 	</section>
 
 	<section>
-	  <div class="sectionTitle">
-	    <h1>Interests</h1>
+	  <div>
+	    <h3>Interests</h3>
 	  </div>
-	  <div class="sectionContent">
+	  <div>
 	    <article>
 	      <p>$interests$.</p>
 	    </article>
 	  </div>
-	  <div class="clear"></div>
+	  <div></div>
 	</section>
-
       </div>
     </div>
-
-
     $for(include-after)$
     $include-after$
     $endfor$
