@@ -5,8 +5,24 @@
   font-display: fallback;
 }
 
+@font-face {
+  font-family: 'Cascadia Mono';
+  font-style: normal;
+  src: url('/css/CascadiaMono.ttf') format('truetype');
+  font-display: fallback;
+}
+
+
 html {
     font-family: 'Cascadia Code';
+}
+
+svg {
+    font-family: 'Cascadia Mono';
+}
+
+code {
+    font-family: 'Cascadia Mono';
 }
 
 a {
