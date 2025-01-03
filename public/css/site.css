@@ -25,6 +25,11 @@ code {
     font-family: 'Cascadia Mono';
 }
 
+div.sourceCode {
+    padding: 20px;
+    border-radius: 10px;
+}
+
 a {
     text-decoration: none;
 }

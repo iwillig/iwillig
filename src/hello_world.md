@@ -81,12 +81,13 @@ Finally, I am attempting to use [GNU Guix](https://guix.gnu.org/) to
 manage my dependencies. However, my usage GNU Guix is only partly
 successful as of Dec 2024.
 
-#### C1 Diagram
+#### System Context Diagram
 
-This is a [C1](https://c4model.com/diagrams/system-context) diagram of
-my blog system. Not super helpful but you can see we are using GitHub
-to host the blog. Hey, you the reader are there. We are building
-software with people first.
+This is a [System
+Context](https://c4model.com/diagrams/system-context) diagram of my
+blog system. Not super helpful but you can see we are using GitHub to
+host the blog. Hey, you the reader are there. We are building software
+with people first.
 
 ~~~{ .plantuml plantuml-filename=images/blog_c_1.svg }
 @startuml
@@ -103,12 +104,12 @@ Rel(personAlias, app, "Views blog posts")
 @enduml
 ~~~
 
-#### C2 Diagram
+#### Container Diagram
 
-This is a [C2 Diagram](https://c4model.com/diagrams/container) for the
-blogging system. We are using a GitHub git repo for storage, and
-GitHub's build system to deploy changes. Pushes to the `main` branch
-currently trigger a new build and deploy to "production".
+This is a [Container Diagram](https://c4model.com/diagrams/container)
+for the blogging system. We are using a GitHub git repo for storage,
+and GitHub's build system to deploy changes. Pushes to the `main`
+branch currently trigger a new build and deploy to "production".
 
 ~~~{ .plantuml plantuml-filename=images/blog_c_2.svg }
 @startuml
@@ -164,5 +165,4 @@ the same commit as his.
 !include manifest.scm
 ```
 
-
-Thats most of it for now. Thanks for reading.
+That's most of it for now. Thanks for reading.
