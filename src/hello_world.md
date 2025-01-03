@@ -161,7 +161,7 @@ need a few things that are unreleased in Haunt, so I am pulling it in
 via git. This is what David's blog does, and my blog is pinned against
 the same commit as his.
 
-```scheme
+```{.scheme .numberLines }
 !include manifest.scm
 ```
 
