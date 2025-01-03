@@ -30,6 +30,11 @@ div.sourceCode {
     border-radius: 10px;
 }
 
+div.sourceCode a {
+    text-decoration: none;
+    color: #f8f9fc;;
+}
+
 a {
     text-decoration: none;
 }
