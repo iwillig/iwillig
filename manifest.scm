@@ -3,6 +3,8 @@
              (gnu packages uml)
              (gnu packages web)
              (gnu packages guile)
+             (gnu packages emacs)
+             (gnu packages emacs-xyz)
              (gnu packages haskell-xyz)
              (gnu packages guile-xyz)
              (gnu packages pkg-config)
@@ -41,6 +43,9 @@
  (list guile-3.0-latest
        ;; plantuml This does not work with c4 diagrams because
        ;; plantuml can't seem to access the internet.
+       emacs
+       emacs-geiser
+       emacs-geiser-guile
        pandoc
        jq
        tidy-html
