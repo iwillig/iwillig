@@ -1,0 +1,156 @@
+[ Div
+    ( "layout" , [ "pure-g" ] , [] )
+    [ Div
+        ( "" , [ "pure-u-1" , "pure-u-md-3-4" , "content" ] , [] )
+        [ Header 2 ( "hello" , [] , [] ) [ Str "Hello" ]
+        , Para
+            [ Str "I"
+            , Space
+            , Str "am"
+            , Space
+            , Str "a"
+            , Space
+            , Str "professional"
+            , Space
+            , Str "software"
+            , Space
+            , Str "engineer."
+            , Space
+            , Str "I"
+            , Space
+            , Str "am"
+            , Space
+            , Str "currently"
+            , Space
+            , Str "working"
+            , Space
+            , Str "at"
+            , SoftBreak
+            , Link
+                ( "" , [] , [] )
+                [ Str "Shortcut" ]
+                ( "https://www.shortcut.com/" , "" )
+            , Space
+            , Str "where"
+            , Space
+            , Str "I"
+            , Space
+            , Str "have"
+            , Space
+            , Str "been"
+            , Space
+            , Str "an"
+            , Space
+            , Str "backend"
+            , SoftBreak
+            , Str "engineer"
+            , Space
+            , Str "for"
+            , Space
+            , Str "ten"
+            , Space
+            , Str "years."
+            ]
+        , Para
+            [ Str "I"
+            , Space
+            , Str "primarily"
+            , Space
+            , Str "work"
+            , Space
+            , Str "in"
+            , SoftBreak
+            , Link
+                ( "" , [] , [] )
+                [ Str "Clojure" ]
+                ( "https://clojure.org/" , "" )
+            , Str ","
+            , Space
+            , Str "but"
+            , Space
+            , Str "have"
+            , SoftBreak
+            , Str "experience"
+            , Space
+            , Str "with"
+            , Space
+            , Str "Python,"
+            , Space
+            , Str "JavaScript,"
+            , Space
+            , Str "TypeScript"
+            , Space
+            , Str "and"
+            , Space
+            , Str "other"
+            , Space
+            , Str "languages."
+            ]
+        , Para
+            [ Str "I"
+            , Space
+            , Str "live"
+            , Space
+            , Str "in"
+            , Space
+            , Str "Brooklyn"
+            , Space
+            , Str "with"
+            , Space
+            , Str "my"
+            , Space
+            , Str "family."
+            , Space
+            , Str "When"
+            , Space
+            , Str "I"
+            , Space
+            , Str "am"
+            , Space
+            , Str "not"
+            , Space
+            , Str "hanging"
+            , Space
+            , Str "out"
+            , Space
+            , Str "with"
+            , SoftBreak
+            , Str "them,"
+            , Space
+            , Str "you"
+            , Space
+            , Str "can"
+            , Space
+            , Str "find"
+            , Space
+            , Str "me"
+            , Space
+            , Str "on"
+            , Space
+            , Str "my"
+            , Space
+            , Str "bike"
+            , Space
+            , Str "or"
+            , Space
+            , Str "in"
+            , Space
+            , Str "a"
+            , Space
+            , Str "hammock"
+            ]
+        , Para
+            [ Str "Thanks"
+            , Space
+            , Str "for"
+            , Space
+            , Str "reading"
+            , Space
+            , Str "my"
+            , SoftBreak
+            , Link ( "" , [] , [] ) [ Str "blog" ] ( "/" , "" )
+            , Str "."
+            ]
+        ]
+    ]
+]

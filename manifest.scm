@@ -42,6 +42,7 @@
        ;; plantuml This does not work with c4 diagrams because
        ;; plantuml can't seem to access the internet.
        pandoc
+       jq
        tidy-html
        gnu-make
        haunt*))
