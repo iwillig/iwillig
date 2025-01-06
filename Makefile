@@ -7,7 +7,7 @@ posts/hello_world.html: src/hello_world.md
 	pandoc --filter pandoc-plantuml --filter pandoc-include --template templates/template.html src/hello_world.md -o posts/hello_world.html
 
 posts/using_pandoc.html: src/using_pandoc.md
-	pandoc --toc --filter pandoc-plantuml --filter pandoc-include --template templates/template.html src/using_pandoc.md -o posts/using_pandoc.html
+	pandoc --filter pandoc-plantuml --filter pandoc-include --template templates/template.html src/using_pandoc.md -o posts/using_pandoc.html
 
 static/resume.html: src/resume.yml templates/resume.html
 	pandoc --template templates/resume.html -f markdown src/resume.yml -t html -o static/resume.html

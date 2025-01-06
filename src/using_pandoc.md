@@ -11,6 +11,9 @@ technical manual will be a collection of Markdown documents with
 combine these documents into a single HTML page and render the
 PlantUML diagrams as SVG images.
 
+The goal is to give you the reader enough understanding of Pandoc to
+build your own documentation system with Pandoc.
+
 [Pandoc](https://pandoc.org/index.html) is a markup transformation
 tool that allows you to convert from any format into any format. It's a
 helpful tool for any software engineer working in any language.

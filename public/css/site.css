@@ -12,8 +12,9 @@
   font-display: fallback;
 }
 
-html {
+html p {
     font-family: 'Cascadia Code';
+    color: #202221;
 }
 
 svg {
@@ -36,10 +37,12 @@ div.sourceCode a {
 
 a {
     text-decoration: none;
+    color: #3D224E;
 }
 a:hover,
 a:focus {
     text-decoration: underline;
+    color: #3D224E;
 }
 
 img {
