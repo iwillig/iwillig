@@ -10,7 +10,19 @@ html {
     font-family: 'Cascadia Code';
 }
 
+a {
+    text-decoration: none;
+    color: #C2298A;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+    color: #C2298A;
+}
+
 #content {
+
 }
 
 .lbox {
