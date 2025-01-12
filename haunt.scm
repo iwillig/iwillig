@@ -42,12 +42,11 @@
 (define side-bar
   (lambda (site)
     `(div (@ (class "pure-u-1 pure-u-md-1-4 sidebar"))
-          (div (@ (class ""))
+          (div (@ (class "sidebar-content"))
                (a
                 (@ (href "/"))
                 (h1 (@ (class ""))
                       ,(site-title site)))
-
                ,(nav-items)))))
 
 (define render-body
@@ -92,11 +91,13 @@
     `((article
        (div (@ (class "post"))
             (h2 ,(post-ref post 'title))
+
             (div ,(date->string (post-date post)
                                 "~B ~d, ~Y"))
-            (div (@ (class "pure-menu pure-menu-horizontal"))
-                 "Tags:"
-                 (ul (@ (class "pure-menu-list"))
+            (div (@ (class ""))
+                 (p  "Tags:")
+                 (ul (@ (class "pure-menu-list")
+                        (id "tag-list"))
                   ,@(map (lambda (tag)
                            `(li
                              (@ (class "pure-menu-item"))

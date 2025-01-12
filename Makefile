@@ -35,3 +35,6 @@ clean:
 	-rm css/highlighting.css
 	-rm resume.html
 	-rm static/resume.html
+	-rm plantuml-images/*.svg
+	-rm plantuml-images/*.uml
+	-rm images/.svg

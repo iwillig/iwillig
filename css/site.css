@@ -12,9 +12,9 @@
   font-display: fallback;
 }
 
-html p {
+html {
     font-family: 'Cascadia Code';
-    color: #202221;
+    color: #1A211E;
 }
 
 svg {
@@ -37,12 +37,12 @@ div.sourceCode a {
 
 a {
     text-decoration: none;
-    color: #3D224E;
+    color: #C2298A;
 }
 a:hover,
 a:focus {
     text-decoration: underline;
-    color: #3D224E;
+    color: #C2298A;
 }
 
 img {
@@ -58,10 +58,6 @@ img {
     text-align: center;
     top: auto;
     margin: 3em auto;
-}
-
-.sidebar {
-    padding: 1em;
 }
 
 .nav-list {
@@ -86,16 +82,29 @@ img {
 }
 
 .content {
-    padding: 2em 1em 0;
+    //padding: 2em 1em 0;
 }
 
 .post {
-    padding-bottom: 2em;
+    padding: 10px;
 }
+
+.sidebar-content {
+    padding: 5px;
+}
+
+#tag-list {
+    padding: 0px;
+}
+
+#tag-list .pure-menu-link {
+    padding: 0px 0px 5px 0px;
+}
+
 
 @media (min-width: 48em) {
     .content {
-        padding: 2em 3em 0;
+        //padding: 2em 1em 0;
         margin-left: 25%;
     }
 
