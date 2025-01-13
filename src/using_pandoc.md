@@ -4,19 +4,20 @@ date: 2025-01-04 12:00
 tags: pandoc, markdown, clojure
 ---
 
+[Pandoc](https://pandoc.org/index.html) is a markup transformation
+tool that allows you to convert from any format into any format. It's
+a helpful tool for any software engineer working in any language.
+
 This guide is going to walk you through building a "technical manual"
 with [Pandoc](https://pandoc.org/index.html). For our goals, the
 technical manual will be a collection of Markdown documents with
 [PlantUML](https://plantuml.com/) diagrams. We will use Pandoc to
 combine these documents into a single HTML page and render the
-PlantUML diagrams as SVG images.
+PlantUML diagrams as SVG images. We will use pandoc filters to render
+PlantUML diagrams and to include source code from your project.
 
 The goal is to give you the reader enough understanding of Pandoc to
 build your own documentation system with Pandoc.
-
-[Pandoc](https://pandoc.org/index.html) is a markup transformation
-tool that allows you to convert from any format into any format. It's a
-helpful tool for any software engineer working in any language.
 
 #### Install
 
@@ -50,11 +51,7 @@ One could convert that from HTML into markdown with the following
 command.
 
 ~~~{.bash}
-## Both of these work, you can reference a file as a parameter
-## and Pandoc happily accepts input from standard in.
-
 pandoc -f html -t markdown public/about.html
-
 cat public/about.html | pandoc -f html -t markdown
 ~~~
 
@@ -97,13 +94,30 @@ Taken from the [Pandoc Website](https://pandoc.org/filters.html)
 
 Now that we understand the basics of how Pandoc works, we are going to
 use it to build a technical manual. We have three main goals with this
-manual. We want to use plantuml to draw diagrams. We want to be able
-to include code fragments in our main document. And we want to use
-markdown for our content.
+manual. We want to use PlantUML to draw diagram and we want to be able
+to include code fragments in our main document. Also we want to use
+Markdown for our content.
+
+- PlantUML based digrams
+- Include code modules
+- Markdown based
+
+#### Setup
+
+We want to use a Markdown file for each section. We are going to use a
+Makefile to build our document into a single HTML document. These are
+just examples and feel free to use what you want to build
+software. The rough structure for our manual will be as follows.
+
+- **Makefile**
+- **metadata.yml**
+- **sections/introduction.md**
+- **sections/architecture.md**
 
 First, let's create a Pandoc metadata file. Pandoc uses yaml for
 metadata. You can include the metadata in a file or in a separate
-file. We are going to use a separate file for our manual.
+file.
+
 
 Create a file called **metadata.yml** with the following content.
 
@@ -121,7 +135,11 @@ like the following.
 You can see on line 10 and 11 we reference an introduction.md and
 architecture.md document.
 
+
+
 #### Using Pandoc filters
+
+
 
 #### Pandoc templates
 
