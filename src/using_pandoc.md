@@ -46,7 +46,8 @@ Let's say you have a simple HTML document. Something like.
 !include code-examples/sample.html
 ~~~
 
-One could convert that from HTML into markdown with the following command.
+One could convert that from HTML into markdown with the following
+command.
 
 ~~~{.bash}
 ## Both of these work, you can reference a file as a parameter
@@ -78,7 +79,7 @@ pandoc code-examples/sample.html -f html -t json | jq > code-examples/sample.jso
 ~~~
 
 ~~~{.json .numberLines }
-!include`startLine=1, endLine=40` code-examples/sample.json
+!include`startLine=40, endLine=60` code-examples/sample.json
 ~~~
 
 We can clearly see now Pandoc is a transformation system. It parses a
@@ -90,31 +91,37 @@ INPUT --reader--> AST --filter--> AST --writer--> OUTPUT
 ~~~
 
 
-| Transform Step | What's happening |
-|----------------|------------------|
-| reader         |                  |
-| filter         |                  |
-| writer         |                  |
-
 Taken from the [Pandoc Website](https://pandoc.org/filters.html)
 
-#### Combining documents
+#### Building your technical document
 
-Let's say you have a couple of markdown documents that you want to
-combine into a single document. Pandoc makes this pretty easy. Lets
-say you have a folder called `docs`. In that folder you have three
-markdown documents. We are going to combine then into a single
-markdown file.
+Now that we understand the basics of how Pandoc works, we are going to
+use it to build a technical manual. We have three main goals with this
+manual. We want to use plantuml to draw diagrams. We want to be able
+to include code fragments in our main document. And we want to use
+markdown for our content.
 
-~~~{.bash}
-pandoc -t markdown -o all-docs.md \
-    001-introduction.md \
-    002-install.md \
-    003-system-context-diagram.md
+First, let's create a Pandoc metadata file. Pandoc uses yaml for
+metadata. You can include the metadata in a file or in a separate
+file. We are going to use a separate file for our manual.
+
+Create a file called **metadata.yml** with the following content.
+
+~~~{.yaml .numberLines}
+!include code-examples/manual/metadata.yml
 ~~~
 
-#### Using Pandoc filters
+After that, let's add a simple **Makefile** for the project. Something
+like the following.
 
+~~~{.makefile .numberLines}
+!include code-examples/manual/Makefile
+~~~
+
+You can see on line 10 and 11 we reference an introduction.md and
+architecture.md document.
+
+#### Using Pandoc filters
 
 #### Pandoc templates
 
@@ -126,7 +133,7 @@ pandoc -D html
 ~~~
 
 Which outputs the following template. You can read more about Pandoc's
-template synatx
+template syntax
 [here](https://pandoc.org/chunkedhtml-demo/6.1-template-syntax.html).
 
 ~~~{.html .numberLines}

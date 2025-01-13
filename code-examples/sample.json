@@ -20,603 +20,474 @@
           "c": "Wanderings"
         }
       ]
-    },
-    "viewport": {
-      "t": "MetaInlines",
-      "c": [
-        {
-          "t": "Str",
-          "c": "width=device-width"
-        }
-      ]
     }
   },
   "blocks": [
     {
-      "t": "Div",
+      "t": "Header",
       "c": [
+        1,
         [
-          "layout",
-          [
-            "pure-g"
-          ],
+          "hello",
+          [],
           []
         ],
         [
           {
-            "t": "Div",
+            "t": "Str",
+            "c": "Hello"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "BulletList",
+      "c": [
+        [
+          {
+            "t": "Plain",
             "c": [
-              [
-                "",
-                [
-                  "pure-u-1",
-                  "pure-u-md-3-4",
-                  "content"
-                ],
-                []
-              ],
-              [
-                {
-                  "t": "Header",
-                  "c": [
-                    2,
-                    [
-                      "hello",
-                      [],
-                      []
-                    ],
-                    [
-                      {
-                        "t": "Str",
-                        "c": "Hello"
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "t": "Para",
-                  "c": [
-                    {
-                      "t": "Str",
-                      "c": "I"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "am"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "a"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "professional"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "software"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "engineer."
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "I"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "am"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "currently"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "working"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "at"
-                    },
-                    {
-                      "t": "SoftBreak"
-                    },
-                    {
-                      "t": "Link",
-                      "c": [
-                        [
-                          "",
-                          [],
-                          []
-                        ],
-                        [
-                          {
-                            "t": "Str",
-                            "c": "Shortcut"
-                          }
-                        ],
-                        [
-                          "https://www.shortcut.com/",
-                          ""
-                        ]
-                      ]
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "where"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "I"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "have"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "been"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "an"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "backend"
-                    },
-                    {
-                      "t": "SoftBreak"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "engineer"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "for"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "ten"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "years."
-                    }
-                  ]
-                },
-                {
-                  "t": "Para",
-                  "c": [
-                    {
-                      "t": "Str",
-                      "c": "I"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "primarily"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "work"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "in"
-                    },
-                    {
-                      "t": "SoftBreak"
-                    },
-                    {
-                      "t": "Link",
-                      "c": [
-                        [
-                          "",
-                          [],
-                          []
-                        ],
-                        [
-                          {
-                            "t": "Str",
-                            "c": "Clojure"
-                          }
-                        ],
-                        [
-                          "https://clojure.org/",
-                          ""
-                        ]
-                      ]
-                    },
-                    {
-                      "t": "Str",
-                      "c": ","
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "but"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "have"
-                    },
-                    {
-                      "t": "SoftBreak"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "experience"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "with"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "Python,"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "JavaScript,"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "TypeScript"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "and"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "other"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "languages."
-                    }
-                  ]
-                },
-                {
-                  "t": "Para",
-                  "c": [
-                    {
-                      "t": "Str",
-                      "c": "I"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "live"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "in"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "Brooklyn"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "with"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "my"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "family."
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "When"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "I"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "am"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "not"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "hanging"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "out"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "with"
-                    },
-                    {
-                      "t": "SoftBreak"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "them,"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "you"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "can"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "find"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "me"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "on"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "my"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "bike"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "or"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "in"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "a"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "hammock"
-                    }
-                  ]
-                },
-                {
-                  "t": "Para",
-                  "c": [
-                    {
-                      "t": "Str",
-                      "c": "Thanks"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "for"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "reading"
-                    },
-                    {
-                      "t": "Space"
-                    },
-                    {
-                      "t": "Str",
-                      "c": "my"
-                    },
-                    {
-                      "t": "SoftBreak"
-                    },
-                    {
-                      "t": "Link",
-                      "c": [
-                        [
-                          "",
-                          [],
-                          []
-                        ],
-                        [
-                          {
-                            "t": "Str",
-                            "c": "blog"
-                          }
-                        ],
-                        [
-                          "/",
-                          ""
-                        ]
-                      ]
-                    },
-                    {
-                      "t": "Str",
-                      "c": "."
-                    }
-                  ]
-                }
-              ]
+              {
+                "t": "Str",
+                "c": "one"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "item"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "two"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "item"
+              }
+            ]
+          }
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Str",
+                "c": "three"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "item"
+              }
             ]
           }
         ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Link",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [
+              {
+                "t": "Str",
+                "c": "Releative"
+              },
+              {
+                "t": "Space"
+              },
+              {
+                "t": "Str",
+                "c": "reference"
+              }
+            ],
+            [
+              "/",
+              ""
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Table",
+      "c": [
+        [
+          "",
+          [],
+          []
+        ],
+        [
+          null,
+          []
+        ],
+        [
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidthDefault"
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidthDefault"
+            }
+          ],
+          [
+            {
+              "t": "AlignDefault"
+            },
+            {
+              "t": "ColWidthDefault"
+            }
+          ]
+        ],
+        [
+          [
+            "",
+            [],
+            []
+          ],
+          [
+            [
+              [
+                "",
+                [],
+                []
+              ],
+              [
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "Company"
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "Contact"
+                        }
+                      ]
+                    }
+                  ]
+                ],
+                [
+                  [
+                    "",
+                    [],
+                    []
+                  ],
+                  {
+                    "t": "AlignDefault"
+                  },
+                  1,
+                  1,
+                  [
+                    {
+                      "t": "Plain",
+                      "c": [
+                        {
+                          "t": "Str",
+                          "c": "Country"
+                        }
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            [
+              "",
+              [],
+              []
+            ],
+            0,
+            [],
+            [
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Alfreds"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Futterkiste"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Maria"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Anders"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Germany"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ],
+              [
+                [
+                  "",
+                  [],
+                  []
+                ],
+                [
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Centro"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "comercial"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Moctezuma"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Francisco"
+                          },
+                          {
+                            "t": "Space"
+                          },
+                          {
+                            "t": "Str",
+                            "c": "Chang"
+                          }
+                        ]
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      "",
+                      [],
+                      []
+                    ],
+                    {
+                      "t": "AlignDefault"
+                    },
+                    1,
+                    1,
+                    [
+                      {
+                        "t": "Plain",
+                        "c": [
+                          {
+                            "t": "Str",
+                            "c": "Mexico"
+                          }
+                        ]
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            "",
+            [],
+            []
+          ],
+          []
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Image",
+          "c": [
+            [
+              "",
+              [],
+              []
+            ],
+            [],
+            [
+              "data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTAwIDEwMCIgcHJlc2VydmVhc3BlY3RyYXRpbz0ieE1pZFlNaWQgc2xpY2UiIHJvbGU9ImltZyI+CiAgICA8dGl0bGU+QSBncmFkaWVudDwvdGl0bGU+CiAgICA8bGluZWFyZ3JhZGllbnQgaWQ9ImdyYWRpZW50Ij4KICAgICAgPHN0b3AgY2xhc3M9ImJlZ2luIiBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSJyZWQiPjwvc3RvcD4KICAgICAgPHN0b3AgY2xhc3M9ImVuZCIgb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSJibGFjayI+PC9zdG9wPgogICAgPC9saW5lYXJncmFkaWVudD4KICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiBzdHlsZT0iZmlsbDp1cmwoI2dyYWRpZW50KSI+PC9yZWN0PgogICAgPGNpcmNsZSBjeD0iNTAiIGN5PSI1MCIgcj0iMzAiIHN0eWxlPSJmaWxsOnVybCgjZ3JhZGllbnQpIj48L2NpcmNsZT4KICA8L3N2Zz4=",
+              ""
+            ]
+          ]
+        }
       ]
     }
   ]

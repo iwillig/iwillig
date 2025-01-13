@@ -1,0 +1,15 @@
+---
+title: Technical Manual
+author: Team
+lang: en-US
+mainlang: english
+otherlang: english
+tags: [manual]
+abstract: |
+  A collection of documents related to the team's engineering efforts.
+mainfont: Cascadia Code Mono
+# Filter preferences:
+# - pandoc-crossref
+linkReferences: true
+plantuml-format: svg
+---
